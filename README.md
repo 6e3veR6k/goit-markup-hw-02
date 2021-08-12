@@ -4,13 +4,22 @@
 
 ![Capture](https://user-images.githubusercontent.com/13679318/127707006-81365b55-3b05-488f-87f0-2314007e129c.PNG)
 
-Домашнее задание
-Создай репозиторий goit-markup-hw-02.
-Склонируй созданный репозиторий и скопируй в него файлы предыдущей работы.
-Выполни разметку и оформление макета страницы домашнего задания #2.
-Для оптимизации изображений используй сервис squoosh.
-Настрой GitHub Pages и добавь ссылку на живую страницу в шапку GitHub-репозитория.
-Критерии приёма работы наставником
+# Домашнее задание
+
+- Создай репозиторий goit-markup-hw-02.
+- Склонируй созданный репозиторий и скопируй в него файлы предыдущей работы.
+- Выполни разметку и оформление макета страницы домашнего задания #2.
+- Для оптимизации изображений используй сервис squoosh.
+- Настрой GitHub Pages и добавь ссылку на живую страницу в шапку GitHub-репозитория.
+- Критерии приёма работы наставником
+
+Дополнительная информация
+
+- На странице Portfolio - кнопки. Всем кнопкам добавить атрибут type=“button”
+- У вас новый спутник - modern-normalize . Подключайте его самый первым в head.
+- При загрузке шрифта появилась дополнительный кусочек кода (на записях с Репетой нет) - ```html <link rel = “preconnect” href = “https://fonts.gstatic.com”> ```. Это нормально, копируйте вместе с ним.
+- В CSS-переменные добавляйте не только цвета, также наиболее повторяющийся свойства - размер шрифта, жирность и т.д.
+- Наиболее повторяющийся свойства на макете выносим в body.
 
 Проект
 «A1» В корне проекта есть папка images с изображениями.
@@ -92,3 +101,43 @@
 «С16» Кнопкам задано свойство cursor со значением pointer.
 
 «С17» В стилях не повторяются значения свойств, которые заданы браузером по умолчнаию. Например, ссылкам не нужно указывать cursor: pointer, а абзацам font-style: normal или font-weight: 400.
+
+
+
+
+```css
+
+.declaration-order {
+  /* Позиционирование */
+  position: absolute;  /* not inherited, default: static */
+  top: 0; /* not inherited, default: auto */
+  right: 0; /* not inherited, default: auto */
+  bottom: 0; /* not inherited, default: auto */
+  left: 0; /* not inherited, default: auto */
+  z-index: 100; /* not inherited, default: auto */
+
+  /* Блочная модель */
+  display: block; /* not inherited, default: inline */
+  float: right; /* not inherited, default: none */
+  width: 100px; /* not inherited, default: auto */
+  height: 100px; /* not inherited, default: auto */
+
+  /* Типографика */
+  font: normal 13px 'Helvetica Neue', sans-serif; /* inherited */
+  font-size: normal; /* inherited */
+  font-weight: normal; /* inherited */
+  font-style: normal; /* inherited */
+  line-height: 1.5; /* inherited */
+  color: #333; /* inherited */
+  text-align: center; /* inherited */
+
+  /* Отображение */
+  background-color: #f5f5f5; /* not inherited, default: transparent */
+  border: 1px solid #e5e5e5;  /* not inherited */
+  border-radius: 3px;  /* not inherited */
+
+  /* Прочее */
+  opacity: 1;
+}
+
+```
