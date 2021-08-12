@@ -4,39 +4,80 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/normalize.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="stylesheet" href="./css/modern-normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>GOIT-markup: ✨WebStudio</title>
+
+    <title>GOIT-markup: 💯Portfolio</title>
   </head>
   <body>
-    <div class="container">
-      <table>
-        <caption>One two three</caption>
-        <thead>
-          <tr>
-            <th>one</th>
-            <th>two</th>
-            <th>thr</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th>one</th>
-            <td>1</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <th>two</th>
-            <td>2</td>
-            <td>2</td>
-          </tr>
-          <tr>
-            <th>thr</th>
-            <td>3</td>
-            <td>3</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+    <!-- Header start -->
+    <header class="page-header">
+      <nav class="page-nav">
+        <a href="/" class="webstudio-logo-link"><span>Web</span>Studio</a>
+        <ul class="nav-list">
+          <li class="nav-list-item">
+            <a href="#" class="nav-link">Студия</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="#" class="nav-link">Портфолио</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="#" class="nav-link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="contacts-list">
+        <li class="contact-list-item">
+          <a href="mailto:info@devstudio.com" class="contact-link email-link">info@devstudio.com</a>
+        </li>
+        <li class="contact-list-item">
+          <a href="tel:+380961111111" class="contact-link tel-link">+38 096 111 11 11</a>
+        </li>
+      </ul>
+    </header>
+    <!-- Header end -->
+    <main class="main-content">
+      <section class="portfolio">
+        <h2 class="portfolio-title vissually-hidden">Portfolio</h2>
+        <ul class="portfolio-nav-list">
+          <li class="portfolio-nav-list-item">
+            <button class="btn portfolio-nav-button" type="button">Все</button>
+          </li>
+          <li class="portfolio-nav-list-item">
+            <button class="btn portfolio-nav-button" type="button">Веб-сайты</button>
+          </li>
+          <li class="portfolio-nav-list-item">
+            <button class="btn portfolio-nav-button" type="button">Приложения</button>
+          </li>
+          <li class="portfolio-nav-list-item">
+            <button class="btn portfolio-nav-button" type="button">Дизайн</button>
+          </li>
+          <li class="portfolio-nav-list-item">
+            <button class="btn portfolio-nav-button" type="button">Маркетинг</button>
+          </li>
+        </ul>
+
+    </main>
+
+    <!-- footer start -->
+    <footer class="page-footer">
+      <a href="/" class="webstudio-logo-link"><span>Web</span>Studio</a>
+      <address>
+        г. Киев, пр-т Леси Украинки, 26
+        <ul class="contacts-list">
+          <li class="contact-list-item">
+            <a href="mailto:info@devstudio.com" class="contact-link email-link">info@devstudio.com</a>
+          </li>
+          <li class="contact-list-item">
+            <a href="tel:+380961111111" class="contact-link tel-link">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </address>
+    </footer>
+    <!-- footer end -->
   </body>
 </html>
