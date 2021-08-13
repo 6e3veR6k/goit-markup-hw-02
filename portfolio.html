@@ -5,8 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- todo: add to portfolio -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+
 
     <link rel="stylesheet" href="./css/modern-normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
@@ -16,48 +21,49 @@
   <body>
     <!-- Header start -->
     <header class="page-header">
-      <nav class="page-nav">
-        <a href="/" class="webstudio-logo-link"><span>Web</span>Studio</a>
-        <ul class="nav-list">
-          <li class="nav-list-item">
-            <a href="./index.html" class="nav-link">Студия</a>
+      <nav class="header-nav">
+        <a href="./index.html" class="webstudio-logo-link dark"><span>Web</span>Studio</a>
+        <ul class="header-nav-list">
+          <li class="header-nav-item">
+            <a href="./index.html" class="link nav-link">Студия</a>
           </li>
-          <li class="nav-list-item">
-            <a href="./portfolio.html" class="nav-link">Портфолио</a>
+          <li class="header-nav-item">
+            <a href="./portfolio.html" class="link nav-link">Портфолио</a>
           </li>
-          <li class="nav-list-item">
-            <a href="#" class="nav-link">Контакты</a>
+          <li class="header-nav-item">
+            <a href="#" class="link nav-link">Контакты</a>
           </li>
         </ul>
       </nav>
-      <ul class="contacts-list">
-        <li class="contact-list-item">
-          <a href="mailto:info@devstudio.com" class="contact-link email-link">info@devstudio.com</a>
+      <ul class="header-contacts">
+        <li class="header-contacts-item">
+          <a href="mailto:info@devstudio.com" class="link contact-link email">info@devstudio.com</a>
         </li>
-        <li class="contact-list-item">
-          <a href="tel:+380961111111" class="contact-link tel-link">+38 096 111 11 11</a>
+        <li class="header-contacts-item">
+          <a href="tel:+380961111111" class="link contact-link phone">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
     <!-- Header end -->
+
     <main class="main-content">
       <section class="portfolio">
-        <h2 class="portfolio-title vissually-hidden">Portfolio</h2>
+        <h2 class="portfolio-title visually-hidden">Portfolio</h2>
         <ul class="portfolio-nav-list">
           <li class="portfolio-nav-list-item">
-            <button class="btn portfolio-nav-button" type="button">Все</button>
+            <button class="btn light-btn" type="button">Все</button>
           </li>
           <li class="portfolio-nav-list-item">
-            <button class="btn portfolio-nav-button" type="button">Веб-сайты</button>
+            <button class="btn light-btn" type="button">Веб-сайты</button>
           </li>
           <li class="portfolio-nav-list-item">
-            <button class="btn portfolio-nav-button" type="button">Приложения</button>
+            <button class="btn light-btn" type="button">Приложения</button>
           </li>
           <li class="portfolio-nav-list-item">
-            <button class="btn portfolio-nav-button" type="button">Дизайн</button>
+            <button class="btn light-btn" type="button">Дизайн</button>
           </li>
           <li class="portfolio-nav-list-item">
-            <button class="btn portfolio-nav-button" type="button">Маркетинг</button>
+            <button class="btn light-btn" type="button">Маркетинг</button>
           </li>
         </ul>
 
@@ -229,16 +235,16 @@
     </main>
 
     <!-- footer start -->
-    <footer class="page-footer">
-      <a href="/" class="webstudio-logo-link"><span>Web</span>Studio</a>
-      <address>
+    <footer class="page-footer dark-bg">
+      <a href="./index.html" class="webstudio-logo-link light"><span>Web</span>Studio</a>
+      <address class="footer-address">
         г. Киев, пр-т Леси Украинки, 26
         <ul class="contacts-list">
           <li class="contact-list-item">
-            <a href="mailto:info@devstudio.com" class="contact-link email-link">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="link contact-link email">info@devstudio.com</a>
           </li>
           <li class="contact-list-item">
-            <a href="tel:+380961111111" class="contact-link tel-link">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="link contact-link phone">+38 096 111 11 11</a>
           </li>
         </ul>
       </address>
