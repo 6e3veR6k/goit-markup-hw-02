@@ -1,10 +1,50 @@
 :root {
   --white-color: #fff;
   --black-color: #000;
+  --font-main-color: #757575;
+  --font-accent-color: #2196f3;
+  --font-accent-secodary-color: #212121;
+  --background-dark-color: #2F303A;
+  --background-light-color: #F5F4FA;
+  --main-font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --accent-font-family: 'Raleway', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   --main-footer-color: var(--black-color);
+  --main-font-size: 16px;
 }
 
 
 body {
-  color: var(--main-footer-color);
+  font-family: var(--main-font-family);
+  font-size: var(--main-font-size);
+  color: var(--font-main-color);
+}
+
+.page-header a,
+.page-footer a {
+  text-decoration: none;
+}
+
+.webstudio-logo-link {
+  color: var(--font-accent-secodary-color);
+  font-family: var(--accent-font-family);
+  font-size: 26px;
+  line-height: 1.175;
+  font-weight: 700;
+}
+
+.webstudio-logo-link span {
+  color: var(--font-accent-color);
+}
+
+.nav-link,
+.contact-link  {
+  color: var(--font-accent-secodary-color);
+}
+
+.nav-list,
+.contacts-list {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
